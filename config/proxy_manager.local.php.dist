@@ -1,0 +1,14 @@
+<?php
+return [
+    'proxy_manager' => [
+        /**
+         * Directory used to store proxies
+         */
+        //'proxies_target_dir' => null,
+
+        /**
+         * Namespace of generated proxy classes
+         */
+        //'proxies_namespace' => null,
+    ],
+];
