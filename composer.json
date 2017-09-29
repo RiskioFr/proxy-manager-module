@@ -29,5 +29,11 @@
         "psr-4": {
             "Riskio\\ProxyManagerModuleTest\\": "tests/"
         }
+    },
+    "extra": {
+        "zf": {
+            "config-provider": "Riskio\\ProxyManagerModule\\ConfigProvider",
+            "module": "Riskio\\ProxyManagerModule\\Module"
+        }
     }
 }
