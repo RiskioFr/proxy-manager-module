@@ -9,10 +9,10 @@ class FactoryTestCase extends PHPUnit_Framework_TestCase
 {
     public function getContainer()
     {
-        $configuration = $this->prophesize(Configuration::class);
+        $configuration = new Configuration();
 
         $container = $this->prophesize(ContainerInterface::class);
-        $container->get(Configuration::class)->willReturn($configuration->reveal());
+        $container->get(Configuration::class)->willReturn($configuration);
 
         return $container;
     }
