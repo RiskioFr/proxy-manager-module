@@ -26,3 +26,18 @@ $ composer require riskio/proxy-manager-module
 ```
 
 Enable the module by adding `Riskio\ProxyManagerModule` key in your `application.config.php` file. In order to configure the module, you must copy and paste the `proxy_manager.global.php.dist` file to your `config/autoload` folder.
+
+## Testing
+
+``` bash
+$ vendor/bin/phpunit
+```
+
+## Credits
+
+- [Nicolas Eeckeloo](https://github.com/neeckeloo)
+- [All Contributors](https://github.com/RiskioFr/proxy-manager-module/contributors)
+
+## License
+
+The MIT License (MIT). Please see [License File](https://github.com/RiskioFr/proxy-manager-module/blob/master/LICENSE) for more information.
