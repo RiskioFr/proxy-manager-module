@@ -1,11 +1,11 @@
 <?php
 namespace Riskio\ProxyManagerModuleTest\Factory;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use ProxyManager\Configuration;
 use Psr\Container\ContainerInterface;
 
-class FactoryTestCase extends PHPUnit_Framework_TestCase
+class FactoryTestCase extends TestCase
 {
     public function getContainer()
     {
